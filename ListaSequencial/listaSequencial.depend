@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1684452331 source:c:\projetos\listasequencial\listasequencial\listasequencial.c
+	<stdio.h>
+	<stdlib.h>
+	"listaSequencial.h"
+
+1684452480 c:\projetos\listasequencial\listasequencial\listasequencial.h
+
+1684452432 source:c:\projetos\listasequencial\listasequencial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaSequencial.h"
+
