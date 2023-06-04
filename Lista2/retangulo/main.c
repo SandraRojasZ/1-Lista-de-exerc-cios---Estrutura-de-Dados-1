@@ -3,12 +3,15 @@
 #include <math.h>
 #include "retangulo.h"
 
-//Ponto A (xa, ya) inferior Direito   2
-//Ponto B (xb, yb) superior Esquerdo  1
+//Ponto A (xa, ya) inferior Direito
+//Ponto B (xb, yb) superior Esquerdo
 
-void main()
+int main()
 {
    float xb, yb, xa, ya;
+   //float area = aRetangulo(r);
+   //float perimetro = pRetangulo(r);
+   //float diagonal = cdiagonalRetangulo(r);
 
    printf("Insira as coordenadas do ponto B: \n");
    printf("xb: ");

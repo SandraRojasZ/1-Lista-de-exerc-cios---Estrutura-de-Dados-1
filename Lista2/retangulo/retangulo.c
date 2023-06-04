@@ -3,8 +3,8 @@
 #include <math.h>
 #include "retangulo.h"
 
-//Ponto A (xa, ya) inferior Direito   2
-//Ponto B (xb, yb) superior Esquerdo  1
+//Ponto A (xa, ya) inferior Direito
+//Ponto B (xb, yb) superior Esquerdo
 
 
 typedef struct ponto{
@@ -47,8 +47,8 @@ void liberaRetangulo(Retangulo* r){
 float aRetangulo(Retangulo* r){
     //h: altura     b: base
    // float h, b;
-    float b = r->superiorB.x - r->inferiorA.x;
-    float h = r->superiorB.y - r->inferiorA.y;
+    float b = fabs(r->superiorB.x - r->inferiorA.x);
+    float h = fabs(r->superiorB.y - r->inferiorA.y);
 
     return b * h;
 }
@@ -56,18 +56,17 @@ float aRetangulo(Retangulo* r){
 float pRetangulo(Retangulo* r){
     //h: altura     b: base
     float h, b;
-    b = r->superiorB.x - r->inferiorA.x;
-    h = r->superiorB.y - r->inferiorA.y;
+    b = fabs(r->superiorB.x - r->inferiorA.x);
+    h = fabs(r->superiorB.y - r->inferiorA.y);
 
     return h + h + b + b;
 }
 
 float cdiagonalRetangulo(Retangulo* r){
     //h: altura     b: base
-    //h = fabs(r->superiorB.y - r->inferiorA.y);
      float h, b;
-     b = r->superiorB.x - r->inferiorA.x;
-     h = r->superiorB.y - r->inferiorA.y;
+     b = fabs(r->superiorB.x - r->inferiorA.x);
+     h = fabs(r->superiorB.y - r->inferiorA.y);
 
      //hipotenusa = raiz quadrada (base * 2 + altura * 2)
      return sqrt(pow(b, 2) + pow(h, 2));

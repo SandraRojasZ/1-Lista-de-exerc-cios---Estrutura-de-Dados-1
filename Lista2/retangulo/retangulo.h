@@ -1,7 +1,7 @@
-//#include "retangulo.h"
+//retangulo.h
 
-//Ponto A (xa, ya) inferior Direito   2
-//Ponto B (xb, yb) superior Esquerdo  1
+//Ponto A (xa, ya) inferior Direito
+//Ponto B (xb, yb) superior Esquerdo
 
 typedef struct ponto Ponto;
 
@@ -16,10 +16,10 @@ void liberaPonto(Ponto* p);
 void liberaRetangulo(Retangulo* r);
 
 //Área do Retangulo
-float aretangulo(Retangulo* r);
+float aRetangulo(Retangulo* r);
 
 //Perimetro do Retangulo
-float pretangulo(Retangulo* r);
+float pRetangulo(Retangulo* r);
 
 //Comprimento da Diagonal do Retangulo
-float cdiagonalretangulo(Retangulo* r);
+float cdiagonalRetangulo(Retangulo* r);
