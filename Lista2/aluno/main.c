@@ -27,7 +27,9 @@ void main()
         printf("Matricula: ");
         scanf("%d", &alunos[i].matricula);
         printf("Nome: ");
-        scanf("%s", alunos[i].nome);
+        getchar();
+        gets(alunos[i].nome);
+        //scanf("%s", alunos[i].nome);
         printf("Nota 1: ");
         scanf("%f", &alunos[i].n1);
         printf("Nota 2: ");

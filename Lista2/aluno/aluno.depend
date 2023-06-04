@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1685834824 source:c:\projetos\lista2\aluno\main.c
+1685899406 source:c:\projetos\lista2\aluno\main.c
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
