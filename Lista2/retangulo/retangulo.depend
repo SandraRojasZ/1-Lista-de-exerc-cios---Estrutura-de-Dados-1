@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1685848380 source:c:\projetos\lista2\retangulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"retangulo.h"
+
+1685842300 c:\projetos\lista2\retangulo\retangulo.h
+
+1685849245 source:c:\projetos\lista2\retangulo\retangulo.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"retangulo.h"
+
